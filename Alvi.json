@@ -5,13 +5,13 @@
     "notification": true,
     "approval": false,
     "premium": true,
-    "BOTNAME": "🅼🅰🆂🆄🅼 🅱🅾🆃",
-    "PREFIX": "/",
+    "BOTNAME": "BAD-BOT",
+    "PREFIX": ".",
     "OPERATOR": [
         "61551846081032"
     ],
     "ADMINBOT": [
-        "100078624862893",
+        "100011152309303",
         "",
         "",
         "",
