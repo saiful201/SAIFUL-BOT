@@ -238,6 +238,6 @@ const fs = global.nodemodule["fs-extra"];
 
 "https://i.postimg.cc/fR6KgQHC/big-boobs-of-sexy-Pakistani-girl-exposed.jpg",
     ];
-   var callback = () => api.sendMessage({body:`╭──────•◈•───────╮\n         🄰🄻🅅🄸🄱🄾🅃       \n--তুমি ছুয়ে দিলে হায়..!-!😕\n\n-আমার টুনটুনি দারিয়ে যায়..! -!🖕👅🥵\n╰──────•◈•───────╯: ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
+   var callback = () => api.sendMessage({body:`╭──────•◈•───────╮\n         𝗦𝗔𝗜𝗙𝗨𝗟-𝗕𝗢𝗧       \n--তুমি ছুয়ে দিলে হায়..!-!😕\n\n-আমার টুনটুনি দারিয়ে যায়..! -!🖕👅🥵\n╰──────•◈•───────╯: ${link.length}`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));  
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/1.jpg")).on("close",() => callback());
    };
